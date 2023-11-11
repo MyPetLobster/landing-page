@@ -202,6 +202,7 @@ a {
     margin-right: 200px;
     justify-content: space-between;
     align-items: center;
+    
     border: 2px solid rgb(130, 0, 0);
 
 }
@@ -214,15 +215,22 @@ a {
     border: 2px solid black;
 }
 
-/* .author {
-    font-size: 32px;
-    padding-left: 150px
-} */
+.atko--text {
+    flex-shrink: 1;
+    min-width: 0;
 
+}
+
+.antler-woman {
+    flex-shrink: 1;
+    min-width: 0;
+
+}
 .antler-woman--img {
     height: auto;
     max-width: 400px;
     position: relative;
+
     /* left: 100px; */
     border: 2px solid black;
 }
