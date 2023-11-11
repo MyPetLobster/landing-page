@@ -20,6 +20,55 @@ ul:not(article ul) {
     max-width: 100%;
 }
 
+/* Button */
+.button {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: "Sometype Mono", monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  .button:focus {
+    outline: 0;
+  }
+  .button:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  .button:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+  @media (min-width: 768px) {
+    .button {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+  
 
 /* HEADER SECTION--1 */
 
@@ -87,64 +136,12 @@ a {
 .button--timber {
     margin-bottom: 10px;
 }
-
-/* CSS */
-.button {
-  background-color: #3DD1E7;
-  border: 0 solid #E5E7EB;
-  box-sizing: border-box;
-  color: #000000;
-  display: flex;
-  font-family: "Sometype Mono", monospace;
-  font-size: 1rem;
-  font-weight: 700;
-  justify-content: center;
-  line-height: 1.75rem;
-  padding: .75rem 1.65rem;
-  position: relative;
-  text-align: center;
-  text-decoration: none #000000 solid;
-  text-decoration-thickness: auto;
-  width: 100%;
-  max-width: 300px;
-  position: relative;
-  cursor: pointer;
-  transform: rotate(-2deg);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-.button:focus {
-  outline: 0;
-}
-.button:after {
-  content: '';
-  position: absolute;
-  border: 1px solid #000000;
-  bottom: 4px;
-  left: 4px;
-  width: calc(100% - 1px);
-  height: calc(100% - 1px);
-}
-.button:hover:after {
-  bottom: 2px;
-  left: 2px;
-}
-@media (min-width: 768px) {
-  .button {
-    padding: .75rem 3rem;
-    font-size: 1.25rem;
-  }
-}
-
-
 .fable--img {
     
     border-radius: 12px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.29);
     
 }
-
 
 /* DISCOGRAPHY SECTION--2 */
 
@@ -190,35 +187,44 @@ a {
 
 .section--3 {
     background-color: rgb(117, 52, 126);
-    display: flex;
+    display: block;
     width: 100%;
     height: auto;
     justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    
 }
 .atko--wrapper {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
+    justify-content: space-between;
     align-items: center;
+    border: 2px solid rgb(130, 0, 0);
+
 }
 
 .atko {
     margin-bottom: 50px;
     line-height: 1.5;
-    width: auto;
+    width: 600px;
     text-align: right;
+    border: 2px solid black;
 }
 
-.author {
-    font-family: "Sometype Mono";
+/* .author {
     font-size: 32px;
     padding-left: 150px
-}
+} */
 
 .antler-woman--img {
     height: auto;
-    max-width: 400px
-    
+    max-width: 400px;
+    position: relative;
+    /* left: 100px; */
+    border: 2px solid black;
 }
 
 
@@ -231,3 +237,34 @@ a {
 /* FOOTER SECTION--5 */
 
 
+@media(max-width: 1063px) {
+    .alb-thmb {
+        width: 130px;
+        height: 130px;
+       
+    }
+    .alb-name {
+        font-size: 14px;
+    }
+
+   #name--dcb,
+   #name--tb {
+    font-size: 12px;
+   }
+}
+
+@media(max-width: 852px) {
+    .alb-thmb {
+        width: 85px;
+        height: 85px;
+       
+    }
+    .alb-name {
+        font-size: 11px;
+    }
+
+   #name--dcb,
+   #name--tb {
+    font-size: 8px;
+   }
+}
