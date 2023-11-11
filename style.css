@@ -200,39 +200,34 @@ a {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    
-    border: 2px solid rgb(130, 0, 0);
-
 }
 
 .atko {
     margin-bottom: 50px;
     line-height: 1.5;
-    width: 600px;
-    text-align: right;
-    border: 2px solid black;
+    max-width: 600px;
+    text-align: center;
 }
 
 .atko--text {
     flex-shrink: 1;
     min-width: 0;
+}
 
+.author {
+    font-size: 36px;
 }
 
 .antler-woman {
-    flex-shrink: 1;
+    max-width: 400px;
     min-width: 0;
 
 }
 .antler-woman--img {
     height: auto;
-    max-width: 400px;
-    position: relative;
-
-    /* left: 100px; */
-    border: 2px solid black;
+    width: 100%;
 }
 
 
@@ -244,6 +239,13 @@ a {
 
 /* FOOTER SECTION--5 */
 
+
+@media(min-width: 1064px) {
+    .author {
+        position: relative;
+        left: 100px;
+    }
+}
 
 @media(max-width: 1063px) {
     .alb-thmb {
@@ -258,6 +260,18 @@ a {
    #name--dcb,
    #name--tb {
     font-size: 12px;
+   }
+
+   .atko {
+    font-size: 12px;
+   }
+
+   .author {
+    font-size: 22px;
+   }
+
+   .antler-woman {
+    max-width: 250px;
    }
 }
 
@@ -274,5 +288,13 @@ a {
    #name--dcb,
    #name--tb {
     font-size: 8px;
+   }
+
+   .atko--wrapper {
+    flex-direction: column;
+   }
+
+   .atko--text {
+    text-align: center;
    }
 }
