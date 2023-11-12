@@ -266,6 +266,10 @@ a {
 }
 
 
+
+
+
+
 /* CONTACT SECTION--4 */
 
 .section--4 {
@@ -377,6 +381,19 @@ a {
     margin-top: 20px;
 }
 
+/* ABOUT PAGE */
+
+.body--about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9f1f3;
+}
+
+.about--container {
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
 
 @media(min-width: 1064px) {
     .author {
