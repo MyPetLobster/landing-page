@@ -7,6 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body {
+    overflow-x: hidden;
+}
 body {
     font-family: "Sometype Mono", monospace;
 }
@@ -290,8 +294,15 @@ a {
     font-size: 8px;
    }
 
+   .disco--wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+
    .atko--wrapper {
     flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
    }
 
    .atko--text {
