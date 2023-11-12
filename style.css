@@ -251,7 +251,7 @@ a {
     flex-shrink: 1;
     min-width: 0;
 }
-.author {
+.author--link {
     font-size: 36px;
     color: #c547c5;
 }
