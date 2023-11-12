@@ -99,7 +99,7 @@ ul:not(article ul) {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #3a88c6;
+    color: #d4d4d4;
     
 }
 .header--menu {
@@ -109,7 +109,6 @@ ul:not(article ul) {
 .header--menu-item {
     padding-left: 50px;
 }
-
 #music {
     color:#c470c8;
 }
@@ -119,7 +118,6 @@ ul:not(article ul) {
 #contact {
     color:#4a2ab5;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -154,7 +152,7 @@ a {
 .fable--img {
     
     border-radius: 12px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 8px 16px 0px rgba(16, 44, 73, 0.522);
     margin-bottom: 15px;
     
 }
@@ -163,7 +161,7 @@ a {
 /* DISCOGRAPHY SECTION--2 */
 
 .section--2 {
-    background-color: #c1bdc2;
+    background-color: #d4d4d4;
     display: flex;
     width: 100%;
     height: auto;
@@ -188,12 +186,11 @@ a {
     border-radius: 12px;
     box-shadow: #162c3d 0px 4px 8px 0px, #d83cd3 0px 4px 8px 0px;
 }
-
 #yk {
     box-shadow: #38163d 0px 4px 8px 0px, #3c8dd8 0px 4px 8px 0px;  
 }
 #dc {
-    box-shadow: #703f06 0px 4px 8px 0px, #ef2b9d 0px 4px 8px 0px;  
+    box-shadow: #42044d 0px 4px 8px 0px, #ef2b9d 0px 4px 8px 0px;  
 }
 #od {
     box-shadow: #162b3d 0px 4px 8px 0px, #d83cac 0px 4px 8px 0px;  
@@ -213,7 +210,6 @@ a {
 #l97 {
     box-shadow: #163d16 0px 4px 8px 0px, #3cd8d0 0px 4px 8px 0px;  
 }
-
 .alb-name {
     text-align: center;
     margin-bottom: 15px;
@@ -272,7 +268,7 @@ a {
 /* CONTACT SECTION--4 */
 
 .section--4 {
-    background-color: #a9b6b9;
+    background-color: #d4d4d4;
     display: block;
     width: 100%;
     height: auto;
@@ -298,12 +294,10 @@ a {
     text-align: center;
     width: 450px;
 }
-
 .button--contact {
     margin-top: 50px;
     background-color: #3a88c6;
 }
-
 .button--contact:after {
     border: 1px solid #A832B3;
 }
@@ -311,8 +305,9 @@ a {
 
 
 /* FOOTER SECTION--5 */
+
 .section--5 {
-    background-color: #cee1decf;
+    background-color: #e9f1f3;
     display: block;
     width: 100%;
     height: auto;
