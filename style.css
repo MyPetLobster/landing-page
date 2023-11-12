@@ -94,7 +94,7 @@ ul:not(article ul) {
     justify-content: space-between;
 }
 .header--logo {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -275,6 +275,30 @@ a {
 
 
 /* FOOTER SECTION--5 */
+.section--5 {
+    background-color: rgb(182, 93, 220);
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.antler-bust {
+    max-width: 600px;
+}
+
+.copyright {
+    font-size: 12px;
+    align-self: flex-end;
+}
+
+
+
 
 
 @media(min-width: 1064px) {
@@ -353,4 +377,19 @@ a {
    .atko--text {
     text-align: center;
    }
+
+
+   .footer {
+        flex-direction: column;
+    }
+
+    .copyright {
+        align-self: center;
+    }
+
+    .antler-bust {
+        align-self: center;
+    }
+
+
 }
