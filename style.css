@@ -327,6 +327,34 @@ a {
 }
 
 
+/* Music Link Page */
+
+.logo--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    max-width: 500px;
+}
+
+.logo--img {
+    width: 100%;
+}
+
+.yt--logo {
+    margin-top: 60px;
+}
+.spotify--logo {
+    margin-top: 40px;
+}
+.soundcloud--logo {
+    margin-top: 20px;
+}
+
+
 @media(min-width: 1064px) {
     .author {
         position: relative;
