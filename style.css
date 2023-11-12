@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
 
+
+/* Universal Styling */
+
 *,
 *::before,
 *::after {
@@ -26,6 +29,7 @@ ul:not(article ul) {
 }
 
 /* Button */
+
 .button {
     background-color: #c547c5;
     border: 0 solid #13223f;
@@ -129,8 +133,6 @@ a {
     align-items: center;
     width: 100%;
     height: auto;
-
-
     margin-top: 10px;
 }
 .hero--left {
@@ -151,11 +153,9 @@ a {
     margin-bottom: 40px;
 }
 .fable--img {
-    
     border-radius: 12px;
     box-shadow: 0px 8px 16px 0px rgba(16, 44, 73, 0.522);
     margin-bottom: 15px;
-    
 }
 
 
@@ -266,10 +266,6 @@ a {
 }
 
 
-
-
-
-
 /* CONTACT SECTION--4 */
 
 .section--4 {
@@ -308,7 +304,6 @@ a {
 }
 
 
-
 /* FOOTER SECTION--5 */
 
 .section--5 {
@@ -332,18 +327,17 @@ a {
 
 
 /* Music Link Page */
+
 .body--music-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #e9f1f3;
 }
-
 .header--logo-link-2 {
     color: #0a2735;
     font-weight: bold;
 }
-
 .logo--container {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -359,18 +353,15 @@ a {
     height: auto;
     border-radius: 12px;
     box-shadow: 0px 8px 12px 0px rgba(16, 44, 73, 0.522);
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     border: 2px solid black;
 }
-
 .logo {
     max-width: 300px;
 }
-
 .logo--img {
     width: 100%;
 }
-
 .yt--logo {
     margin-top: 30px;
 }
@@ -381,6 +372,7 @@ a {
     margin-top: 20px;
 }
 
+
 /* ABOUT PAGE */
 
 .body--about {
@@ -389,11 +381,13 @@ a {
     align-items: center;
     background-color: #e9f1f3;
 }
-
 .about--container {
     margin-top: 300px;
     margin-bottom: 300px;
 }
+
+
+/* Media Queries */
 
 @media(min-width: 1064px) {
     .author {
